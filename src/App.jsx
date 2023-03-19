@@ -6,6 +6,8 @@ import Header from "./components/header/Header";
 import Services from './components/services/Services';
 import Catalogue from "./components/Catalogue/Catalogue";
 import Features from './components/Features/Features';
+import Sales from './components/Sales/Sales';
+import Footer from './components/Footer/Footer';
 
 const  App = ()  => {
 
@@ -25,6 +27,8 @@ const  App = ()  => {
         <Catalogue  imageSrc="https://images.pexels.com/photos/6480049/pexels-photo-6480049.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" title="Collections" type="Child"/>
       </div>
       <Features />
+      <Sales/>
+      <Footer />
     </div>
   );
 }

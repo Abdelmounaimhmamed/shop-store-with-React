@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+
+.ul-ele{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-ele li a {
+    text-decoration: none;
+    margin: auto 20px;
+    color: black;
+    transition: .5s ease-in-out all; 
+}
+.ul-ele li a:hover{
+    color: aqua;
+}
+
+.title{
+    border: 2px solid black;
+    padding:10px   20px;
+    font-size: 24px;
+}

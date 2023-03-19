@@ -1,0 +1,6 @@
+# life cycle : 
+# 1- js file is loaded 
+# 2- instance of app component is created . 
+# 3- app component constructor gets called .
+# 4- state object is created and gets assigned to this.state property . 
+# 5- and so on .  

@@ -1,0 +1,32 @@
+.header-compo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(114, 255, 255);
+    flex-wrap: wrap;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+.info h2{
+    font-size: 35px;
+    color: rgb(53, 53, 53);
+    margin-bottom: 10px;
+}
+.info p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.sber{
+    width: 600px;
+    height: 300px;
+    transform: rotate(45deg);
+}
